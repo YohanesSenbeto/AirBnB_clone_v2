@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: MyMySQLClient
+Version: 1.0
+Summary: A MySQL client package
+Home-page: https://github.com/YohanesSenbeto/mymysqlclient
+Author: Yohanes Senbeto
+Author-email: jonicasenbeto@email.com
+License: UNKNOWN
+Description: A Python package for interacting with MySQL databases.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

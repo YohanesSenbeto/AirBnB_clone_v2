@@ -1,0 +1,7 @@
+README.md
+setup.py
+MyMySQLClient.egg-info/PKG-INFO
+MyMySQLClient.egg-info/SOURCES.txt
+MyMySQLClient.egg-info/dependency_links.txt
+MyMySQLClient.egg-info/requires.txt
+MyMySQLClient.egg-info/top_level.txt

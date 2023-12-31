@@ -3,15 +3,14 @@
 This module defines the routes for the Flask app.
 """
 
-from flask import Blueprint
+from flask import Flask
 
-# Create a Blueprint named 'main'
-main_blueprint = Blueprint('main', __name__)
+app = Flask(__name__)
 
-@main_blueprint.route('/', strict_slashes=False)
-def hello_hbnb():
-    """
-    Renders 'Hello HBNB!' on the root URL.
-    """
+@app.route('/', strict_slashes=False)
+def hello():
     return 'Hello HBNB!'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
 
