@@ -14,4 +14,3 @@ app.config['SECRET_KEY'] = 'b9e542897c0cdacb8b91558b4de734885d82710bb56cc292'
 
 # Register blueprints
 app.register_blueprint(main_blueprint)
-
