@@ -6,7 +6,7 @@ The application listens on 0.0.0.0, port 5000.
 Routes:
     - /: Displays “Hello HBNB!”
     - /hbnb: Displays “HBNB”
-    - /c/<text>: Displays “C ” followed by the value of the text variable 
+    - /c/<text>: Displays “C ” followed by the value of the text variable
       (replacing underscores _ symbols with a space).
 
 It uses the option strict_slashes=False in the route definition.
@@ -40,4 +40,3 @@ def c_route(text):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-

@@ -19,8 +19,7 @@ def teardown_session(exception):
 @app.route('/states_list', strict_slashes=False)
 def display_states_list():
     """
-    Display a list of states fetched from the database.
-    
+    Display a list of states fetched from the database
     Returns:
         str: HTML content displaying the list of states.
     """

@@ -8,8 +8,8 @@ Routes:
     - /hbnb: Displays “HBNB”
     - /c/<text>: Displays “C ”, followed by the value of the text variable
       (replace underscore _ symbols with a space)
-    - /python/<text>: Displays “Python ”, followed by the value of the text variable
-      (replace underscore _ symbols with a space). The default value of text is “is cool”.
+    - /python/<text>: Displays “Python ”, followed by the text variable
+      (replace underscore _ symbols with a space). The text is “is cool”.
     - /number/<n>: Displays “n is a number” only if n is an integer
 
 It uses the option strict_slashes=False in the route definition.
@@ -61,4 +61,3 @@ def number_route(n):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
